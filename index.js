@@ -1,8 +1,11 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const express = require('express');
+const crypto = require('crypto');
 
-app.use(express.static('public'))
+const app = express();
+const port = 3000;
+
+app.use(express.json());
+app.use(express.static('public'));
 
 // Your code goes here
 
