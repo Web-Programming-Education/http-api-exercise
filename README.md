@@ -1,5 +1,7 @@
 # Übung: Erstellen einer HTTP API mit Nodejs und Express
 
-`npm install` 
+Zum Installieren der Abhängigkeiten einmalig `npm install` ausführen.
 
-`npm start`
+Danach kann das Projekt mit `npm start` gestartet werden. Es wird automatisch neugestartet sobald eine Datei gespeichert wird.
+
+Die Anwendung ist dann auf [http://localhost:3000](http://localhost:3000) verfügbar
